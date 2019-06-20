@@ -7,22 +7,37 @@ The development of a program in Py-thon is presented for the calculation of the 
 Keywords: Chemical bonds, Ionic, Po-lar Covalent, Pure Covalent and Elec-tronegativity.
 # Introducción
 La química es la ciencia que se encar-ga de estudiar el comportamiento de la materia como: su composición y cada una de sus propiedades, incluyendo los cambios que experimenta al entrar en contacto con otras sustancias.
+
 Este proyecto está ideado para crear una aplicación capaz solucionar pe-queños problemas en este campo de estudio, dando pues la respuesta al nombre de los tipos de enlaces vistos en clase.
+
 Los datos necesarios se encuentran en una hoja de cálculo con todos los ele-mentos de la tabla periódica y el núme-ro de electrones de valencia de cada elemento.
+
 En Python podemos llamar el archivo de Excel a través de librerías, la aplica-ción está ideada para que el usuario elija a su gusto los elementos de la hoja de cálculo en Python, mientras que Python realiza la resta de los electrones de valencia de tal modo que si dicha resta nos arroja un resultado igual a 0 el enlace dirá Covalente Puro, si el resul-tado es mayor a 0 pero menor a 2; el enlace dirá Iónico y si el resultado es igual o mayor a 2 el enlace dirá Co-valente Polar.
+
 Cabe mencionar que en esta suma siempre se elige primero cuál de los dos elementos seleccionados tiene mayor cantidad de electrones de valencia para que nuestro resultado siempre nos dé un número mayor o igual a 0. Después Python se encargará de hacer lo men-cionado en el párrafo anterior.
+
 # Desarrollo
 Para utilizar este programa se tiene que usar un paquete de Python que propor-ciona estructuras de datos similares a los dataframes de R. el cual es pandas, depende de Numpy, la librería añade un potente tipo matricial.
+
 1.- Se tiene que importar el programa para poder usarlo, ya que al importarlo se incorpora una aplicación objetos, documentos u otro tipo de archivos lo cual en este caso se tomaran datos de Excel.
+
 2.- Para poder leer el programa se ocu-pa tener el archivo guardado en csv el cual los objetos de pandas permiten tanto leer datos en diversos formatos (read_csv, read_excel, read_json, read_html, read_pickle….) como escribir en ellos (to_csv, to_excel, to_json, to_html, to_pickle….). Permite incluso leer y escribir en el portapapeles (read_clipboard, to_clipboard)
 Sep: el delimitador que divide los cam-pos del csv
+
 3.- Se imprimen los datos correspon-dientes para poder correr el programa
+
 4.- Se especifica lo que se tiene que imprimir al llamar la columna o fila es-cogida.
+
 5.- Para poder utilizar la entrada se ocupa que sea entero, entonces puede convertirse exitosamente a int y pode-mos decir que la entrada ingresada es un número, así que input permite obte-ner texto escrito por teclado.
+
 6.- se denomina la formula a seguir pa-ra tener tu calculo correcto 
+
 7.- Para la estructura del programa se ocupa if, el cual os permite que el pro-grama ejecute unas instrucciones cuando se cumplan una condición.
+
 8.- Se pone el rango correspondiente para tener la lectura correspondiente de los valores en el rango 
+
 9.- Se imprime la suma adecuada para poder tener el resultado correcto y así obtener los diferentes enlaces químicos
+
 10-. Se pone los elementos que quieras calcular y así lo repites las veces que quieras que te salga el enlace químico corres-pondiente del programa
 # Manejo de Datos
 El manejo de datos de este programa el cual tiene que ver con la química “enla-ces químicos” con el que se obtendrán los diferentes sus enlaces correspon-dientes ya sea iónico o covalente, cova-lente polar, mediante Python 2.7 ya que se nos acomodaba mas con la maquina que estamos usándola la cual tiene unas características con Windows 10, el cual cuenta con un sistema operativo de 64 bits.
