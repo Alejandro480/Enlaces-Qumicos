@@ -23,21 +23,24 @@ Sep: el delimitador que divide los cam-pos del csv
 7.- Para la estructura del programa se ocupa if, el cual os permite que el pro-grama ejecute unas instrucciones cuando se cumplan una condición.
 8.- Se pone el rango correspondiente para tener la lectura correspondiente de los valores en el rango 
 9.- Se imprime la suma adecuada para poder tener el resultado correcto y así obtener los diferentes enlaces químicos
-10-. Se pone los elementos que quieras calcular 
-Y así lo repites las veces que quieras que te salga el enlace químico corres-pondiente del programa
+10-. Se pone los elementos que quieras calcular y así lo repites las veces que quieras que te salga el enlace químico corres-pondiente del programa
 # Manejo de Datos
 El manejo de datos de este programa el cual tiene que ver con la química “enla-ces químicos” con el que se obtendrán los diferentes sus enlaces correspon-dientes ya sea iónico o covalente, cova-lente polar, mediante Python 2.7 ya que se nos acomodaba mas con la maquina que estamos usándola la cual tiene unas características con Windows 10, el cual cuenta con un sistema operativo de 64 bits.
 
-Para que nuestro programa pueda fun-cionar se ocupó la librería panda, la cual como el archivo a importar es en Excel se ocupara la librería xlrd para leer los datos directamente de Excel. 
+Para que nuestro programa pueda fun-cionar se ocupó la librería panda, la cual como el archivo a importar es en Excel se ocupara la librería xlrd para leer los datos directamente de Excel.
+
 Para leer los elementos se maneja co-mo readElementos, por ellos es funda-mental tener en claro.
 Los comandos utilizados por pandas son para llamar las columnas de el ar-chivo en Excel, créate.querry, ya que así se podrá importar solo la columna que llamamos.
+
 Read.data es idispensable para llevar a cabo la impotancion correcta y teniendo las condiciones dichas en el programa se tendrá el resultado a esperar.
 # Conclusión
 Mario Gonzalez:
 En este proyecto se vio como de buena manera se podría facili-tar las cosas en la química pa-ra ello es fundamental tener en nuestro entorno se tendrá que utilizar la química en to-dos lados y teniendo en cuen-ta este programa, con mayor facilidad ya que importando datos se tendrá de manera co-rrecta el resultado esperado. Sobre todo, que la tecnología la metemos a nuestro alcance y es lo 
 que los conlleva a tener más fáci-les las cosas 
+
 Alejando Ramirez:
 Mediante la realización del pro-yecto logramos realizar un proyecto para la facilitación de poder identificar si la suma de la electronegatividad de los elementos para identificar si son enlaces iónicos o enlaces covalente polar
+
 David Hernández:
 Este proyecto nos ayudó a solucionar una problemática planteada, como ma-teria, la programación tiene una amplia variedad de aplicaciones a soluciones soluciones. Es necesario tener un co-nocimiento del problema para saber que se querrá como resultado de dicha aplicació 
  
