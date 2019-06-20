@@ -135,16 +135,19 @@ Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando su
 # Conclusión
 
 Mario Gonzalez:
+
 En este proyecto se vio como de buena manera se podría facili-tar las cosas en la química pa-ra ello es fundamental tener en nuestro entorno se tendrá que utilizar la química en to-dos lados y teniendo en cuen-ta este programa, con mayor facilidad ya que importando datos se tendrá de manera co-rrecta el resultado esperado. Sobre todo, que la tecnología la metemos a nuestro alcance y es lo 
 que los conlleva a tener más fáci-les las cosas.
 
 
 Alejando Serratos:
+
 Mediante la realización del pro-yecto logramos realizar un có-digo mediante el desarrollo de un programa para poder reali-zar la suma de diferentes ele-mentos químicos mediante su electronegatividad y con esto poder definir si la suma de es-tos elementos químicos es un enlace Iónico o un Enlace Covalente polar.
 Este código fue desarrollado con el fin de poder facilitar la suma de estos elementos químicos y poder identificar el tipo de en-lace y con esto poder satisfa-cer la necesidad de facilitar el trabajo de la realización su-mas mediante la electronega-tividad de los elementos quí-micos
 
 
 David Hernández:
+
 Este proyecto nos ayudó a solucionar una problemática planteada, como ma-teria, la programación tiene una amplia variedad de aplicaciones a soluciones. Es necesario tener un conocimiento del problema para saber que se querrá co-mo resultado de dicha aplicación.
 
 Lo que hoy en día tenemos a nuestro alcance se puede tomar en un entorno muy a favor de nosotros ya que con es-ta revolución tecnología tenemos a nuestros alcance muchas mas facilida-des para poder explorar todo lo que queremos respecto a el estudio, tener un programa el cual te pueda calcular de buena manera los diferentes enla-ces Químicos  que se pueden calcular mediante la electronegatividad, se toma en cuenta en la química como algo in-dispensable que se tiene que tener de  conocimiento básico,  y con la ayuda de este tipos de programas de facilitaran  para un mayor aprendizaje esperado de cada uno de nosotros los estudiantes.
