@@ -1,11 +1,11 @@
 Alejandro Ramirez Serratos
-aserratos0809@gmail.com
+    correo electronico: aserratos0809@gmail.com
 
 Mario Humberto González Dimas 
-mgonzalez26@ucol.mx
+    correo electronico: mgonzalez26@ucol.mx
 
 Juan David Hernandez Hernandez
-jhernandez14@ucol.mx
+    correo electronico: jhernandez14@ucol.mx
 
 Campus Coquimatlán, 284000
 # Enlaces-Qumicos
