@@ -1,3 +1,7 @@
+Alejandro Ramirez Serratos          aserratos0809@gmail.com
+Mario Humberto González Dimas       mgonzalez26@ucol.mx
+Juan David Hernandez Hernandez      jhernandez14@ucol.mx
+Campus Coquimatlán, 284000
 # Enlaces-Qumicos
 Realización de la suma de electronegatividad de los elementos químicos y indicar si es enlace Ionico o Covalente polar 
 # Resumen                                                                       
@@ -48,6 +52,40 @@ Para leer los elementos se maneja co-mo readElementos, por ellos es funda-mental
 Los comandos utilizados por pandas son para llamar las columnas de el ar-chivo en Excel, créate.querry, ya que así se podrá importar solo la columna que llamamos.
 
 Read.data es idispensable para llevar a cabo la impotancion correcta y teniendo las condiciones dichas en el programa se tendrá el resultado a esperar.
+# Codigo (Python 2.7)
+#Para poder ejecutar correctamente el codigo debera utilizar:(Python 2.7).
+import pandas as pd
+
+def readElementos():
+    return raw_input("ingrese formula\n")
+
+def createQuery(elementos):
+    preQuery = []
+    for elemento in elementos:
+        q = 's == "{}"'.format(elemento.upper())
+        preQuery.append(q)
+    return ' or '.join(preQuery)
+
+def readData(fileName, query):
+    data = pd.read_excel(fileName, sheet_name='Hoja1')
+    total =  data.query(query).sum()
+    return total['pA']
+#Si desea seguir realizando sumas de los elementos quimicos deberea indicar "y", de no ser asi, debera indicar "n".
+def total():
+    total = readData('periodic.xlsx', createQuery(readElementos().split('+')))
+    return total
+
+run = ('y')
+while run == ('y'):
+    print 'total = ', total()
+    if ('total > 1.67:'):
+        print ("Enlace Covalente Polar")
+    else:
+        print ("Enlace ionico")
+run = raw_input("Decea continuar con otra suma y/n\n")
+#Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando sumas.
+ 
+
 # Conclusión
 Mario Gonzalez:
 En este proyecto se vio como de buena manera se podría facili-tar las cosas en la química pa-ra ello es fundamental tener en nuestro entorno se tendrá que utilizar la química en to-dos lados y teniendo en cuen-ta este programa, con mayor facilidad ya que importando datos se tendrá de manera co-rrecta el resultado esperado. Sobre todo, que la tecnología la metemos a nuestro alcance y es lo 
