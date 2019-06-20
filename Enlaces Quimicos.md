@@ -79,7 +79,7 @@ Read.data es idispensable para llevar a cabo la impotancion correcta y teniendo 
 
 # Codigo (Python 2.7)
 
-#Para poder ejecutar correctamente el codigo debera utilizar: (Python 2.7).
+Para poder ejecutar correctamente el codigo debera utilizar: (Python 2.7).
 
     import pandas as pd
 
@@ -106,7 +106,7 @@ Read.data es idispensable para llevar a cabo la impotancion correcta y teniendo 
     
         return total['pA']
     
-#Si desea seguir realizando sumas de los elementos quimicos deberea indicar "y", de no ser asi, debera indicar "n".
+Si desea seguir realizando sumas de los elementos quimicos deberea indicar "y", de no ser asi, debera indicar "n".
 
     def total():
 
@@ -130,7 +130,7 @@ Read.data es idispensable para llevar a cabo la impotancion correcta y teniendo 
         
     run = raw_input("Decea continuar con otra suma y/n\n")
 
-#Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando sumas.
+Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando sumas.
  
 # Conclusión
 
