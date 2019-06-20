@@ -1,10 +1,10 @@
-Alejandro Ramirez Serratos
+Alejandro Ramirez Serratos, 
     correo electronico: aserratos0809@gmail.com
 
-Mario Humberto González Dimas 
+Mario Humberto González Dimas,  
     correo electronico: mgonzalez26@ucol.mx
 
-Juan David Hernandez Hernandez
+Juan David Hernandez Hernandez, 
     correo electronico: jhernandez14@ucol.mx
 
 Campus Coquimatlán, 284000
