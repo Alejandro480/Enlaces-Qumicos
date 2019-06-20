@@ -151,3 +151,7 @@ David Hernández:
 Este proyecto nos ayudó a solucionar una problemática planteada, como ma-teria, la programación tiene una amplia variedad de aplicaciones a soluciones. Es necesario tener un conocimiento del problema para saber que se querrá co-mo resultado de dicha aplicación.
 
 Lo que hoy en día tenemos a nuestro alcance se puede tomar en un entorno muy a favor de nosotros ya que con es-ta revolución tecnología tenemos a nuestros alcance muchas mas facilida-des para poder explorar todo lo que queremos respecto a el estudio, tener un programa el cual te pueda calcular de buena manera los diferentes enla-ces Químicos  que se pueden calcular mediante la electronegatividad, se toma en cuenta en la química como algo in-dispensable que se tiene que tener de  conocimiento básico,  y con la ayuda de este tipos de programas de facilitaran  para un mayor aprendizaje esperado de cada uno de nosotros los estudiantes.
+
+# Referencias 
+
+Tabla periodica de electronegativadad de Pauling
