@@ -1,13 +1,26 @@
-Alejandro Ramirez Serratos                    aserratos0809@gmail.com
-Mario Humberto González Dimas                    mgonzalez26@ucol.mx
-Juan David Hernandez Hernandez                jhernandez14@ucol.mx
+Alejandro Ramirez Serratos
+aserratos0809@gmail.com
+
+Mario Humberto González Dimas 
+mgonzalez26@ucol.mx
+
+Juan David Hernandez Hernandez
+jhernandez14@ucol.mx
+
 Campus Coquimatlán, 284000
 # Enlaces-Qumicos
 Realización de la suma de electronegatividad de los elementos químicos y indicar si es enlace Ionico o Covalente polar 
 # Resumen                                                                       
-Se presenta la elaboración de un pro-grama en Python para el cálculo de  la electronegatividad de los elementos químicos, facilitando el nombramiento y conocimiento del tipo de enlace que se forma al combinar ciertos elementos de la tabla periódica. Enlaces como: Iónico, Covalente Polar y Covalente puro.Los datos de la tabla serán tomados de una hoja de cálculo de Excel.  Palabras clave: Enlaces Químicos, Ió-nico, Covalente Polar, Covalente puro y Electronegatividad
+Se presenta la elaboración de un pro-grama en Python para el cálculo de  la electronegatividad de los elementos químicos, facilitando el nombramiento y conocimiento del tipo de enlace que se forma al combinar ciertos elementos de la tabla periódica. Enlaces como: Iónico, Covalente Polar y Covalente puro.
+
+Los datos de la tabla serán tomados de una hoja de cálculo de Excel.  
+
+Palabras clave: Enlaces Químicos, Ió-nico, Covalente Polar, Covalente puro y Electronegatividad
 # Abstract 
-The development of a program in Py-thon is presented for the calculation of the electronegativity of the chemical elements, facilitating the appointment and knowledge of the type of link that is formed when combining certain ele-ments of the periodic table. Links such as: Ionic, Polar Covalent and pure Co-valent. The data in the table will be taken from an Excel spreadsheet.
+The development of a program in Py-thon is presented for the calculation of the electronegativity of the chemical elements, facilitating the appointment and knowledge of the type of link that is formed when combining certain ele-ments of the periodic table. Links such as: Ionic, Polar Covalent and pure Co-valent.
+
+The data in the table will be taken from an Excel spreadsheet.
+
 Keywords: Chemical bonds, Ionic, Po-lar Covalent, Pure Covalent and Elec-tronegativity.
 # Introducción
 La química es la ciencia que se encar-ga de estudiar el comportamiento de la materia como: su composición y cada una de sus propiedades, incluyendo los cambios que experimenta al entrar en contacto con otras sustancias.
@@ -56,51 +69,52 @@ Read.data es idispensable para llevar a cabo la impotancion correcta y teniendo 
 #Para poder ejecutar correctamente el codigo debera utilizar:(Python 2.7).
 import pandas as pd
 
-def readElementos():
+    def readElementos():
 
-    return raw_input("ingrese formula\n")
+        return raw_input("ingrese formula\n")
 
-def createQuery(elementos):
+    def createQuery(elementos):
 
-    preQuery = []
+        preQuery = []
     
-    for elemento in elementos:
+        for elemento in elementos:
     
-        q = 's == "{}"'.format(elemento.upper())
+             q = 's == "{}"'.format(elemento.upper())
         preQuery.append(q)
         
-    return ' or '.join(preQuery)
+        return ' or '.join(preQuery)
 
-def readData(fileName, query):
+    def readData(fileName, query):
 
-    data = pd.read_excel(fileName, sheet_name='Hoja1')
+        data = pd.read_excel(fileName, sheet_name='Hoja1')
     
-    total =  data.query(query).sum()
+        total =  data.query(query).sum()
     
-    return total['pA']
+        return total['pA']
     
 #Si desea seguir realizando sumas de los elementos quimicos deberea indicar "y", de no ser asi, debera indicar "n".
 
-def total():
+    def total():
 
-    total = readData('periodic.xlsx', createQuery(readElementos().split('+')))
-    return total
-
-run = ('y')
-
-while run == ('y'):
-
-    print 'total = ', total()
-    
-    if ('total > 1.67:'):
-    
-        print ("Enlace Covalente Polar")
+        total = readData('periodic.xlsx', createQuery(readElementos().split('+')))
         
-    else:
+        return total
+
+    run = ('y')
+
+    while run == ('y'):
+
+        print 'total = ', total()
     
-        print ("Enlace ionico")
+        if ('total > 1.67:'):
+    
+            print ("Enlace Covalente Polar")
         
-run = raw_input("Decea continuar con otra suma y/n\n")
+        else:
+    
+            print ("Enlace ionico")
+        
+    run = raw_input("Decea continuar con otra suma y/n\n")
 
 #Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando sumas.
  
@@ -111,8 +125,8 @@ En este proyecto se vio como de buena manera se podría facili-tar las cosas en 
 que los conlleva a tener más fáci-les las cosas 
 
 Alejando Ramirez:
-Mediante la realización del pro-yecto logramos realizar un proyecto para la facilitación de poder identificar si la suma de la electronegatividad de los elementos para identificar si son enlaces iónicos o enlaces covalente polar
+Mediante la realización del proyecto logramos realizar un codigo para la facilitación del poder identificar si la suma de la electronegatividad de los elementos son enlaces iónicos o enlaces covalente polar
 
 David Hernández:
-Este proyecto nos ayudó a solucionar una problemática planteada, como ma-teria, la programación tiene una amplia variedad de aplicaciones a soluciones soluciones. Es necesario tener un co-nocimiento del problema para saber que se querrá como resultado de dicha aplicació 
+Este proyecto nos ayudó a solucionar una problemática planteada, como ma-teria, la programación tiene una amplia variedad de aplicaciones a soluciones. Es necesario tener un co-nocimiento del problema para saber que se querrá como resultado de dicha aplicación 
  
