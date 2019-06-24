@@ -150,7 +150,7 @@ Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando su
 
 # Graficas Obtenidas
 
-![PalabrasdelTextoAlternativo](https://PYPLOT/img.png)
+![PalabrasdelTextoAlternativo](https://file:///C:/Users/aleja/Desktop/PYPLOT/img.png)
  
 # Conclusión
 
