@@ -150,7 +150,13 @@ Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando su
 
 # Graficas Obtenidas
 
-![PalabrasdelTextoAlternativo](https://file:///C:/Users/aleja/Desktop/PYPLOT/img.png)
+![PalabrasdelTextoAlternativo](https://github.com/Alejandro480/Enlaces-Qumicos/blob/master/PYPLOT.png)
+
+Este resultado fue el que brindo el programa al plotear los datos, cabe mencionar que no se grafica por que solo se cuenta con una variable, para poder graficar correctamente tendriamos que contar con dos variables.
+
+Se trato de corregir este problema realizando una grafica de barras pero al cambiar el codigo para hacer posible esto, indicaba el siguiente error:
+
+![PalabrasdelTextoAlternativo](https://github.com/Alejandro480/Enlaces-Qumicos/blob/master/Error%20Python27.png)
  
 # Conclusión
 
@@ -175,3 +181,5 @@ Lo que hoy en día tenemos a nuestro alcance se puede tomar en un entorno muy a 
 # Referencias 
 
 Tabla periodica de electronegativadad de Pauling
+
+![PalabrasdelTextoAlternativo](https://github.com/Alejandro480/Enlaces-Qumicos/blob/master/Tabla%20de%20electronegatividad.png)
