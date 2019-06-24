@@ -129,8 +129,28 @@ Si desea seguir realizando sumas de los elementos quimicos deberea indicar "y", 
             print ("Enlace ionico")
         
     run = raw_input("Decea continuar con otra suma y/n\n")
+    
+    import matplotlib.pyplot as plt
+    
+    x1=[2]
+    
+    y1=[total]
+    
+    plt.title('Grafica de barras')
+    
+    plt.ylabel('eje y')
+    
+    plt.xlabel('eje x')
+    
+    plt.legend()
+    
+    plt.show()
 
 Si indica "y" podra seguir realizando sumas, sino, no podra seguir realizando sumas.
+
+# Graficas Obtenidas
+
+![PalabrasdelTextoAlternativo](https://PYPLOT/img.png)
  
 # Conclusión
 
